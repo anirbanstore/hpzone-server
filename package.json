@@ -1,0 +1,37 @@
+{
+  "name": "hpzone-server",
+  "version": "1.0.0",
+  "description": "Nodejs middleware for HP-Zone angular 8 application",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anirbanstore/hpzone-server.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "hpzone"
+  ],
+  "author": "anirbmuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anirbanstore/hpzone-server/issues"
+  },
+  "homepage": "https://github.com/anirbanstore/hpzone-server#readme",
+  "devDependencies": {
+    "jest": "^26.1.0",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.25"
+  }
+}
