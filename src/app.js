@@ -7,7 +7,7 @@ const reqRoutes = require('./routes/requisition.route');
 
 const base_path = process.env.hp_zone_server_base_path;
 
-const allowedOrigins = ['http://localhost:4200', 'https://anirbanstore.github.io'];
+const allowedOrigins = ['http://localhost:4200', 'https://anirbanstore.github.io', 'https://hpzone-home.firebaseapp.com'];
 
 app.use((req, res, next) => {
     const origin = req.headers.origin;
