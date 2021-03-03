@@ -22,8 +22,11 @@ const userSchema = mongoose.Schema({
     ConsumerNumber: {
         type: String,
         required: true,
-        trim: true,
-        maxLength: [2, 'Consumer number can be of maximum 6 characters']
+        trim: true
+    },
+    Provider: {
+        type: String,
+        trim: true
     },
     Tokens: [
         {
