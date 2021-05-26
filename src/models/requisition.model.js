@@ -10,8 +10,7 @@ const requisitionSchema = mongoose.Schema({
     ConsumerNumber: {
         type: String,
         required: true,
-        trim: true,
-        maxLength: [2, 'Consumer number can be of maximum 6 characters']
+        trim: true
     },
     ReqDate: {
         type: Number,

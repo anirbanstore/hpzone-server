@@ -1,7 +1,7 @@
 {
   "name": "hpzone-server",
-  "version": "1.0.0",
-  "description": "Nodejs middleware for HP-Zone angular 8 application",
+  "version": "2.0.0",
+  "description": "Nodejs middleware for HP-Zone angular 12 application",
   "main": "src/server.js",
   "scripts": {
     "dev": "nodemon src/server.js",
