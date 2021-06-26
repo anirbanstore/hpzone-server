@@ -4,14 +4,14 @@ Nodejs middleware for HP-Zone angular 12 application
 - - - -
 
 ## Technical mumbo-jumbo
-What I wanted     | What I got
+What I wanted     | What I got   
 ----------------- | --------------
-IDE               | MS Visual Studio Code
-Front-end         | Angular 12
-Database          | MongoDB (4.2.3)
-Middleware        | Node (14.16.1), Express (4.17.1)
-MW Hosting        | Heroku
-App Hosting       | gh-pages
+IDE               | MS Visual Studio Code   
+Front-end         | Angular 12   
+Database          | MongoDB   
+Middleware        | Node, Express   
+MW Hosting        | GCP (asia-south1)   
+App Hosting       | GCP (asia-south1)   
 
 - - - -
 
@@ -21,6 +21,6 @@ https://github.com/anirbanstore/hpzone.git
 - - - -
 
 ## Cloud deployment
-Angular - https://anirbanstore.github.io/hpzone  
-Node & Express - https://hpzone-server.el.r.appspot.com  
-Mongo - Cloud atlas  
+Angular - https://hpzone-home.firebaseapp.com   
+Node & Express - https://hpzone-server.el.r.appspot.com   
+Mongo - Cloud atlas   
