@@ -1,5 +1,5 @@
 # hpzone-server
-Nodejs middleware for HP-Zone angular 12 application  
+Nodejs middleware for HP-Zone angular application  
 
 - - - -
 
@@ -7,7 +7,7 @@ Nodejs middleware for HP-Zone angular 12 application
 What I wanted     | What I got   
 ----------------- | --------------
 IDE               | MS Visual Studio Code   
-Front-end         | Angular 12   
+Front-end         | Angular   
 Database          | MongoDB   
 Middleware        | Node, Express   
 MW Hosting        | GCP (asia-south1)   

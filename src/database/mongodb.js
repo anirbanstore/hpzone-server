@@ -12,11 +12,9 @@ if (app_environment === 'dev') {
 
 mongoose
 .connect(connectionURL, {
-    useCreateIndex: true,
-    useFindAndModify: true,
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
-.catch(() => console.error('Failed to connect to mongodb'));
+.catch((err) => console.error('Failed to connect to mongodb', err));
 
 module.exports = mongoose;
