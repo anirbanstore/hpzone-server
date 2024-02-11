@@ -12,8 +12,8 @@ if (app_environment === 'dev') {
 
 mongoose
 .connect(connectionURL, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
+    autoIndex: true,
+    autoCreate: true,
 })
 .catch((err) => console.error('Failed to connect to mongodb', err));
 
